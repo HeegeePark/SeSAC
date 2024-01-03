@@ -8,5 +8,5 @@
 |`week1`|Day5|
 |||
 |`week2`|Day6|
-|`week2`|Day7|
+|`week2`|Day7|[BMI 계산기](https://github.com/HeegeePark/SeSAC/issues/1)|
  
