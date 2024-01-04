@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet var labels: [UILabel]!
     
     let emotionList = ["행복해", "사랑해", "좋아해", "당황해", "속상해", "우울해", "심심해", "행복해", "행복해"]
-    var tapCounts = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +32,8 @@ class ViewController: UIViewController {
         // 클릭 수 카운팅
          let result = addCountingNumber(idx: idx)
         
-        updateLabel(idx: idx, num: result)
+        setLocalCount(idx: idx, count: result)
+        updateLabel(idx: idx, count: result)
     }
     
     // 랜덤 숫자 반환
@@ -43,13 +43,23 @@ class ViewController: UIViewController {
     
     // 클릭 횟수 반환
     func addCountingNumber(idx: Int) -> Int {
-        tapCounts[idx] += 1
-        return tapCounts[idx]
+        let newCount = getLocalCount(idx) + 1
+        return newCount
+    }
+    
+    // UserDefaults 값 가져오기
+    func getLocalCount(_ idx: Int) -> Int {
+        return UserDefaults.standard.integer(forKey: "count\(idx)")
+    }
+    
+    // UserDefaults 값 셋팅
+    func setLocalCount(idx: Int, count: Int) {
+        UserDefaults.standard.set(count, forKey: "count\(idx)")
     }
     
     // 레이블 텍스트 변경
-    func updateLabel(idx: Int, num: Int) {
-        labels[idx].text = emotionList[idx] + " " + "\(num)"
+    func updateLabel(idx: Int, count: Int) {
+        labels[idx].text = emotionList[idx] + " " + "\(count)"
     }
     
     // 버튼 셋팅
@@ -61,7 +71,8 @@ class ViewController: UIViewController {
     // 레이블 셋팅
     func setLabels(_ label: UILabel) {
         let idx = label.tag
-        updateLabel(idx: idx, num: 0)
+        let count = getLocalCount(idx)
+        updateLabel(idx: idx, count: count)
         label.font = .systemFont(ofSize: 17)
         label.textColor = .black
         label.textAlignment = .center
