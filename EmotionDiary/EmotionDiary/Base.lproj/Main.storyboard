@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EmotionDiary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="0Ga-zi-CxE">
+                                <rect key="frame" x="16" y="169" width="362" height="425"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="cRl-5q-UwP">
+                                        <rect key="frame" x="0.0" y="0.0" width="362" height="131"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rYI-oA-OsV">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="131"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQJ-N6-ZnX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="102"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="oQJ-N6-ZnX" secondAttribute="height" multiplier="55:51" id="IfD-jx-eyT"/>
+                                                            <constraint firstAttribute="width" constant="110" id="wdd-aX-M15"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="4" maxY="0.0"/>
+                                                        <state key="normal" image="slime1">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="13"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ffz-Qm-zOm"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3en-r8-jmZ">
+                                                        <rect key="frame" x="27" y="110" width="56" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="oQJ-N6-ZnX" secondAttribute="trailing" id="2VL-Sz-Z2j"/>
+                                                    <constraint firstItem="3en-r8-jmZ" firstAttribute="centerX" secondItem="oQJ-N6-ZnX" secondAttribute="centerX" id="Qpp-Ke-3fX"/>
+                                                    <constraint firstAttribute="bottom" secondItem="3en-r8-jmZ" secondAttribute="bottom" id="XvM-UR-5is"/>
+                                                    <constraint firstItem="oQJ-N6-ZnX" firstAttribute="top" secondItem="rYI-oA-OsV" secondAttribute="top" id="Ys0-VD-M2o"/>
+                                                    <constraint firstItem="oQJ-N6-ZnX" firstAttribute="leading" secondItem="rYI-oA-OsV" secondAttribute="leading" id="fqW-Gl-jSO"/>
+                                                    <constraint firstItem="3en-r8-jmZ" firstAttribute="top" secondItem="oQJ-N6-ZnX" secondAttribute="bottom" constant="8" symbolic="YES" id="ziS-5t-bh4"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ia2-1h-xjK">
+                                                <rect key="frame" x="126" y="0.0" width="110" height="131"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3O-Yr-uvc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="102"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="c3O-Yr-uvc" secondAttribute="height" multiplier="55:51" id="I5w-cT-N5q"/>
+                                                            <constraint firstAttribute="width" constant="110" id="jUq-qc-nZJ"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="4" maxY="0.0"/>
+                                                        <state key="normal" image="slime1">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="13"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gav-mE-nFT"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJQ-1U-olg">
+                                                        <rect key="frame" x="27" y="110" width="56" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="qJQ-1U-olg" secondAttribute="bottom" id="0VT-NE-S9Q"/>
+                                                    <constraint firstItem="qJQ-1U-olg" firstAttribute="top" secondItem="c3O-Yr-uvc" secondAttribute="bottom" constant="8" symbolic="YES" id="0s3-rk-ea7"/>
+                                                    <constraint firstAttribute="trailing" secondItem="c3O-Yr-uvc" secondAttribute="trailing" id="cGk-2K-Nci"/>
+                                                    <constraint firstItem="qJQ-1U-olg" firstAttribute="centerX" secondItem="c3O-Yr-uvc" secondAttribute="centerX" id="k0u-4M-0oE"/>
+                                                    <constraint firstItem="c3O-Yr-uvc" firstAttribute="leading" secondItem="ia2-1h-xjK" secondAttribute="leading" id="m1o-d9-63R"/>
+                                                    <constraint firstItem="c3O-Yr-uvc" firstAttribute="top" secondItem="ia2-1h-xjK" secondAttribute="top" id="rSl-mc-aA6"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AAf-Zk-kOF">
+                                                <rect key="frame" x="252" y="0.0" width="110" height="131"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="he4-Zq-XSF">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="102"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="he4-Zq-XSF" secondAttribute="height" multiplier="55:51" id="P9O-Fx-4AV"/>
+                                                            <constraint firstAttribute="width" constant="110" id="XUq-5U-ZiF"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="4" maxY="0.0"/>
+                                                        <state key="normal" image="slime1">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="13"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XEO-BP-n2M"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9NL-T5-gCP">
+                                                        <rect key="frame" x="27" y="110" width="56" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="9NL-T5-gCP" firstAttribute="top" secondItem="he4-Zq-XSF" secondAttribute="bottom" constant="8" symbolic="YES" id="HCf-c2-Rjf"/>
+                                                    <constraint firstAttribute="trailing" secondItem="he4-Zq-XSF" secondAttribute="trailing" id="OTF-yo-kjb"/>
+                                                    <constraint firstAttribute="bottom" secondItem="9NL-T5-gCP" secondAttribute="bottom" id="cJ3-dq-ZR4"/>
+                                                    <constraint firstItem="he4-Zq-XSF" firstAttribute="leading" secondItem="AAf-Zk-kOF" secondAttribute="leading" id="dv0-Yb-8hz"/>
+                                                    <constraint firstItem="9NL-T5-gCP" firstAttribute="centerX" secondItem="he4-Zq-XSF" secondAttribute="centerX" id="nJI-Jl-Pj0"/>
+                                                    <constraint firstItem="he4-Zq-XSF" firstAttribute="top" secondItem="AAf-Zk-kOF" secondAttribute="top" id="nrl-Sd-cCX"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="umI-Bd-iJ1">
+                                        <rect key="frame" x="0.0" y="147" width="362" height="131"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hV5-rY-deM">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="131"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RKg-k1-t4Q">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="102"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="RKg-k1-t4Q" secondAttribute="height" multiplier="55:51" id="CSJ-Rz-aaZ"/>
+                                                            <constraint firstAttribute="width" constant="110" id="pG0-FU-o0j"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="4" maxY="0.0"/>
+                                                        <state key="normal" image="slime1">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="13"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Rr-Ed-PS3"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qL-CE-5Xa">
+                                                        <rect key="frame" x="27" y="110" width="56" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="4qL-CE-5Xa" secondAttribute="bottom" id="S6N-ep-m9f"/>
+                                                    <constraint firstItem="4qL-CE-5Xa" firstAttribute="top" secondItem="RKg-k1-t4Q" secondAttribute="bottom" constant="8" symbolic="YES" id="Wo1-dm-AW3"/>
+                                                    <constraint firstItem="4qL-CE-5Xa" firstAttribute="centerX" secondItem="RKg-k1-t4Q" secondAttribute="centerX" id="ZzI-Sh-JLj"/>
+                                                    <constraint firstItem="RKg-k1-t4Q" firstAttribute="top" secondItem="hV5-rY-deM" secondAttribute="top" id="meO-Lo-qhz"/>
+                                                    <constraint firstItem="RKg-k1-t4Q" firstAttribute="leading" secondItem="hV5-rY-deM" secondAttribute="leading" id="qJ2-6T-eim"/>
+                                                    <constraint firstAttribute="trailing" secondItem="RKg-k1-t4Q" secondAttribute="trailing" id="wAy-Ek-SuZ"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vbR-Cc-HNs">
+                                                <rect key="frame" x="126" y="0.0" width="110" height="131"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4le-Wa-tOv">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="102"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="110" id="YcM-jY-lOJ"/>
+                                                            <constraint firstAttribute="width" secondItem="4le-Wa-tOv" secondAttribute="height" multiplier="55:51" id="cVI-Hx-ZJi"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="4" maxY="0.0"/>
+                                                        <state key="normal" image="slime1">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="13"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Wa-JQ-OxI"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akZ-AG-JBI">
+                                                        <rect key="frame" x="27" y="110" width="56" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="4le-Wa-tOv" firstAttribute="top" secondItem="vbR-Cc-HNs" secondAttribute="top" id="Bd2-ty-7gU"/>
+                                                    <constraint firstAttribute="bottom" secondItem="akZ-AG-JBI" secondAttribute="bottom" id="e4W-Yk-Tx7"/>
+                                                    <constraint firstItem="akZ-AG-JBI" firstAttribute="top" secondItem="4le-Wa-tOv" secondAttribute="bottom" constant="8" symbolic="YES" id="hj9-kP-vxR"/>
+                                                    <constraint firstItem="akZ-AG-JBI" firstAttribute="centerX" secondItem="4le-Wa-tOv" secondAttribute="centerX" id="jeP-RA-Qxw"/>
+                                                    <constraint firstAttribute="trailing" secondItem="4le-Wa-tOv" secondAttribute="trailing" id="u9K-aV-FaQ"/>
+                                                    <constraint firstItem="4le-Wa-tOv" firstAttribute="leading" secondItem="vbR-Cc-HNs" secondAttribute="leading" id="zyk-Pw-IUv"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cam-fd-xuv">
+                                                <rect key="frame" x="252" y="0.0" width="110" height="131"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyE-Kg-dNt">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="102"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="110" id="JJT-yS-HsM"/>
+                                                            <constraint firstAttribute="width" secondItem="zyE-Kg-dNt" secondAttribute="height" multiplier="55:51" id="aEx-tx-zQJ"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="4" maxY="0.0"/>
+                                                        <state key="normal" image="slime1">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="13"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WTd-bk-YEa"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOa-Kb-Jyt">
+                                                        <rect key="frame" x="27" y="110" width="56" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="YOa-Kb-Jyt" firstAttribute="centerX" secondItem="zyE-Kg-dNt" secondAttribute="centerX" id="D51-Nc-2ug"/>
+                                                    <constraint firstItem="zyE-Kg-dNt" firstAttribute="top" secondItem="cam-fd-xuv" secondAttribute="top" id="K5V-pv-Wyy"/>
+                                                    <constraint firstItem="YOa-Kb-Jyt" firstAttribute="top" secondItem="zyE-Kg-dNt" secondAttribute="bottom" constant="8" symbolic="YES" id="SnX-2I-2DY"/>
+                                                    <constraint firstAttribute="trailing" secondItem="zyE-Kg-dNt" secondAttribute="trailing" id="ehG-7s-MO4"/>
+                                                    <constraint firstAttribute="bottom" secondItem="YOa-Kb-Jyt" secondAttribute="bottom" id="r1r-vG-kHl"/>
+                                                    <constraint firstItem="zyE-Kg-dNt" firstAttribute="leading" secondItem="cam-fd-xuv" secondAttribute="leading" id="tQz-QW-dnt"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="z85-34-yIA">
+                                        <rect key="frame" x="0.0" y="294" width="362" height="131"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qrv-Pt-TRi">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="131"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wat-46-CXJ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="102"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="Wat-46-CXJ" secondAttribute="height" multiplier="55:51" id="9MW-gN-R2L"/>
+                                                            <constraint firstAttribute="width" constant="110" id="CG0-oe-Swf"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="4" maxY="0.0"/>
+                                                        <state key="normal" image="slime1">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="13"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pDV-Bb-lpr"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HoS-K4-uih">
+                                                        <rect key="frame" x="27" y="110" width="56" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="Wat-46-CXJ" secondAttribute="trailing" id="AGi-Vp-gPk"/>
+                                                    <constraint firstItem="HoS-K4-uih" firstAttribute="top" secondItem="Wat-46-CXJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Qh5-RO-vYF"/>
+                                                    <constraint firstItem="Wat-46-CXJ" firstAttribute="top" secondItem="Qrv-Pt-TRi" secondAttribute="top" id="Zqi-lM-P6X"/>
+                                                    <constraint firstAttribute="bottom" secondItem="HoS-K4-uih" secondAttribute="bottom" id="g7U-Wp-Q3k"/>
+                                                    <constraint firstItem="HoS-K4-uih" firstAttribute="centerX" secondItem="Wat-46-CXJ" secondAttribute="centerX" id="rDf-N8-T42"/>
+                                                    <constraint firstItem="Wat-46-CXJ" firstAttribute="leading" secondItem="Qrv-Pt-TRi" secondAttribute="leading" id="zol-IK-ThE"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x2b-sz-Agd">
+                                                <rect key="frame" x="126" y="0.0" width="110" height="131"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kh-eV-PnZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="102"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="0kh-eV-PnZ" secondAttribute="height" multiplier="55:51" id="gQy-Px-hbS"/>
+                                                            <constraint firstAttribute="width" constant="110" id="llp-fL-PBk"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="4" maxY="0.0"/>
+                                                        <state key="normal" image="slime1">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="13"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6gd-JC-Fcx"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JND-rH-i0Y">
+                                                        <rect key="frame" x="27" y="110" width="56" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="JND-rH-i0Y" secondAttribute="bottom" id="3Rz-tJ-Pm2"/>
+                                                    <constraint firstItem="JND-rH-i0Y" firstAttribute="centerX" secondItem="0kh-eV-PnZ" secondAttribute="centerX" id="Awt-vd-tEy"/>
+                                                    <constraint firstItem="0kh-eV-PnZ" firstAttribute="top" secondItem="x2b-sz-Agd" secondAttribute="top" id="EiT-pD-xBb"/>
+                                                    <constraint firstItem="JND-rH-i0Y" firstAttribute="top" secondItem="0kh-eV-PnZ" secondAttribute="bottom" constant="8" symbolic="YES" id="LWG-hZ-TY7"/>
+                                                    <constraint firstAttribute="trailing" secondItem="0kh-eV-PnZ" secondAttribute="trailing" id="h18-kN-GTm"/>
+                                                    <constraint firstItem="0kh-eV-PnZ" firstAttribute="leading" secondItem="x2b-sz-Agd" secondAttribute="leading" id="h19-hP-DCb"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g0L-DN-pfs">
+                                                <rect key="frame" x="252" y="0.0" width="110" height="131"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svo-2M-kge">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="102"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="svo-2M-kge" secondAttribute="height" multiplier="55:51" id="LOx-Cu-Zok"/>
+                                                            <constraint firstAttribute="width" constant="110" id="fxf-oO-pMr"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="4" maxY="0.0"/>
+                                                        <state key="normal" image="slime1">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="13"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aOX-dL-6Cf"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eO5-1p-FiA">
+                                                        <rect key="frame" x="27" y="110" width="56" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="eO5-1p-FiA" secondAttribute="bottom" id="AWA-IX-OYe"/>
+                                                    <constraint firstItem="eO5-1p-FiA" firstAttribute="centerX" secondItem="svo-2M-kge" secondAttribute="centerX" id="Gl1-z5-RVt"/>
+                                                    <constraint firstItem="svo-2M-kge" firstAttribute="leading" secondItem="g0L-DN-pfs" secondAttribute="leading" id="mgG-R6-2sW"/>
+                                                    <constraint firstItem="eO5-1p-FiA" firstAttribute="top" secondItem="svo-2M-kge" secondAttribute="bottom" constant="8" symbolic="YES" id="vQL-E0-Jcx"/>
+                                                    <constraint firstItem="svo-2M-kge" firstAttribute="top" secondItem="g0L-DN-pfs" secondAttribute="top" id="yBt-gV-j5V"/>
+                                                    <constraint firstAttribute="trailing" secondItem="svo-2M-kge" secondAttribute="trailing" id="z67-nc-r99"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0Ga-zi-CxE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6n6-vN-vyQ"/>
+                            <constraint firstItem="0Ga-zi-CxE" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="gDU-c4-d6p"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="buttons" destination="oQJ-N6-ZnX" collectionClass="NSMutableArray" id="yQu-xg-fjV"/>
+                        <outletCollection property="buttons" destination="c3O-Yr-uvc" collectionClass="NSMutableArray" id="zk9-II-Zsk"/>
+                        <outletCollection property="buttons" destination="he4-Zq-XSF" collectionClass="NSMutableArray" id="mzb-QJ-9zg"/>
+                        <outletCollection property="buttons" destination="RKg-k1-t4Q" collectionClass="NSMutableArray" id="Kw8-b0-4vt"/>
+                        <outletCollection property="buttons" destination="4le-Wa-tOv" collectionClass="NSMutableArray" id="3EB-UZ-71J"/>
+                        <outletCollection property="buttons" destination="zyE-Kg-dNt" collectionClass="NSMutableArray" id="DCv-XU-B1e"/>
+                        <outletCollection property="buttons" destination="Wat-46-CXJ" collectionClass="NSMutableArray" id="Grh-iX-kUf"/>
+                        <outletCollection property="buttons" destination="0kh-eV-PnZ" collectionClass="NSMutableArray" id="DsJ-Et-jR9"/>
+                        <outletCollection property="buttons" destination="svo-2M-kge" collectionClass="NSMutableArray" id="7Wp-wo-mXF"/>
+                        <outletCollection property="labels" destination="3en-r8-jmZ" collectionClass="NSMutableArray" id="Y7n-ze-3uH"/>
+                        <outletCollection property="labels" destination="qJQ-1U-olg" collectionClass="NSMutableArray" id="b1I-Ta-puS"/>
+                        <outletCollection property="labels" destination="9NL-T5-gCP" collectionClass="NSMutableArray" id="JXD-qI-Nc5"/>
+                        <outletCollection property="labels" destination="4qL-CE-5Xa" collectionClass="NSMutableArray" id="3HX-X6-XQd"/>
+                        <outletCollection property="labels" destination="akZ-AG-JBI" collectionClass="NSMutableArray" id="dPT-jo-b3I"/>
+                        <outletCollection property="labels" destination="YOa-Kb-Jyt" collectionClass="NSMutableArray" id="lyr-tr-kEv"/>
+                        <outletCollection property="labels" destination="HoS-K4-uih" collectionClass="NSMutableArray" id="v1g-Qd-hIF"/>
+                        <outletCollection property="labels" destination="JND-rH-i0Y" collectionClass="NSMutableArray" id="9GL-o8-vS4"/>
+                        <outletCollection property="labels" destination="eO5-1p-FiA" collectionClass="NSMutableArray" id="egb-95-Gnw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="4.9295774647887329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="slime1" width="278" height="258"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
