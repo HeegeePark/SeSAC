@@ -13,6 +13,8 @@
 		4F7F303D2B456B0D00A28267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7F303B2B456B0D00A28267 /* Main.storyboard */; };
 		4F7F303F2B456B0F00A28267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7F303E2B456B0F00A28267 /* Assets.xcassets */; };
 		4F7F30422B456B0F00A28267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7F30402B456B0F00A28267 /* LaunchScreen.storyboard */; };
+		4F7F305D2B46C39C00A28267 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4F7F305C2B46C39C00A28267 /* IQKeyboardManagerSwift */; };
+		4F7F30602B46C3BB00A28267 /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 4F7F305F2B46C3BB00A28267 /* TextFieldEffects */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7F305D2B46C39C00A28267 /* IQKeyboardManagerSwift in Frameworks */,
+				4F7F30602B46C3BB00A28267 /* TextFieldEffects in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,10 @@
 			dependencies = (
 			);
 			name = BMICalculator;
+			packageProductDependencies = (
+				4F7F305C2B46C39C00A28267 /* IQKeyboardManagerSwift */,
+				4F7F305F2B46C3BB00A28267 /* TextFieldEffects */,
+			);
 			productName = BMICalculator;
 			productReference = 4F7F30322B456B0D00A28267 /* BMICalculator.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,10 @@
 				Base,
 			);
 			mainGroup = 4F7F30292B456B0D00A28267;
+			packageReferences = (
+				4F7F305B2B46C39C00A28267 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				4F7F305E2B46C3BB00A28267 /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
+			);
 			productRefGroup = 4F7F30332B456B0D00A28267 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -363,6 +375,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F7F305B2B46C39C00A28267 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.16;
+			};
+		};
+		4F7F305E2B46C3BB00A28267 /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F7F305C2B46C39C00A28267 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F7F305B2B46C39C00A28267 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		4F7F305F2B46C3BB00A28267 /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F7F305E2B46C3BB00A28267 /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4F7F302A2B456B0D00A28267 /* Project object */;
 }
