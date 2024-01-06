@@ -1,4 +1,9 @@
 # SeSAC
+
+## 💽 Repository
+▶️ [TableView](https://github.com/HeegeePark/TableView.git)
+
+## ✏️ Log
 |Week|TIL|Assignment|
 |:--|:--|:--|
 |`week1`|Day2|
