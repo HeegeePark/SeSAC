@@ -1,7 +1,9 @@
 # SeSAC
 
 ## 💽 Repository
-▶️ [TableView](https://github.com/HeegeePark/TableView.git)
+### ▶️ [EmotionDiary](https://github.com/HeegeePark/EmotionDiary)
+### ▶️ [BMICalculator](https://github.com/HeegeePark/BMICalculator)
+### ▶️ [TableView](https://github.com/HeegeePark/TableView)
 
 ## ✏️ Log
 |Week|TIL|Assignment|
