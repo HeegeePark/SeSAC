@@ -20,4 +20,4 @@
 |||
 |`week3`|Day10|[TableView](https://github.com/HeegeePark/TableView/issues/2)|
 |`week3`|Day11|[TableView: CollectionView 구현](https://github.com/HeegeePark/TableView/issues/4)|
-|`week3`|Day12|[TableView: Protocol, Extension 적용](https://github.com/HeegeePark/TableView/issues/6)|
+|`week3`|Day12|[TableView: Protocol, Extension 적용](https://github.com/HeegeePark/TableView/issues/6)|
