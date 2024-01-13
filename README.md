@@ -1,6 +1,7 @@
 # SeSAC
 
 ## 💽 Repository
+### ▶️ [Netflix](https://github.com/HeegeePark/Netflix)
 ### ▶️ [EmotionDiary](https://github.com/HeegeePark/EmotionDiary)
 ### ▶️ [BMICalculator](https://github.com/HeegeePark/BMICalculator)
 ### ▶️ [TableView](https://github.com/HeegeePark/TableView)
