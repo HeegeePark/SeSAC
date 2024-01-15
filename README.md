@@ -25,4 +25,4 @@
 |`week3`|[Day13](https://github.com/HeegeePark/SeSAC/issues/5)|[TableView: 화면 전환, NavigationBar 설정](https://github.com/HeegeePark/TableView/issues/7)|
 |`week3`|Day14|[TableView: 채팅 화면](https://github.com/HeegeePark/TableView/issues/8)|
 |||
-|`week4`|Day15|[TableView: 채팅 화면](https://github.com/HeegeePark/TableView/issues/10)|
+|`week4`|Day15|[TableView: WebView, Search, MapView](https://github.com/HeegeePark/TableView/issues/10)|
