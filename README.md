@@ -5,7 +5,7 @@
 ### ▶️ [EmotionDiary](https://github.com/HeegeePark/EmotionDiary)
 ### ▶️ [BMICalculator](https://github.com/HeegeePark/BMICalculator)
 ### ▶️ [TableView](https://github.com/HeegeePark/TableView)
-
+### ▶️ [Network](https://github.com/HeegeePark/Network)
 ## ✏️ Log
 |Week|TIL|Assignment|
 |:--|:--|:--|
@@ -26,3 +26,4 @@
 |`week3`|Day14|[TableView: 채팅 화면](https://github.com/HeegeePark/TableView/issues/8)|
 |||
 |`week4`|Day15|[TableView: WebView, Search, MapView](https://github.com/HeegeePark/TableView/issues/10)|
+|`week4`|Day16|[Network: Lotto, Beer API 연결](https://github.com/HeegeePark/Network/issues/1)|
