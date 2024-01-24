@@ -34,6 +34,6 @@
 |`week4`|Day17|[OpenAPIPractice: Naver, Kakao api 연결](https://github.com/HeegeePark/SeSAC/issues/6)|
 |`week4`|Day18|[1st Recap Assignment](https://github.com/HeegeePark/SeSAC_Recap)|
 |`week4`|Day19|[1st Recap Assignment](https://github.com/HeegeePark/SeSAC_Recap)|
-|`week4`|Day20|[1st Recap Assignment](https://github.com/HeegeePark/SeSAC_Recap)|
-|`week4`|Day21|[1st Recap Assignment 보완](https://github.com/HeegeePark/SeSAC_Recap)|
-|`week4`|Day22|[TableView: 주변 영화관 탐색 화면에 CLLocation 적용](https://github.com/HeegeePark/SeSAC/issues/7)|
+|`week5`|Day20|[1st Recap Assignment](https://github.com/HeegeePark/SeSAC_Recap)|
+|`week5`|Day21|[1st Recap Assignment 보완](https://github.com/HeegeePark/SeSAC_Recap)|
+|`week5`|Day22|[TableView: 주변 영화관 탐색 화면에 CLLocation 적용](https://github.com/HeegeePark/SeSAC/issues/7)|
