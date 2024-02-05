@@ -47,5 +47,5 @@
 |`week6`|Day27|[Media: TMDB TV API 연동, TV시리즈 세부 정보 화면 구현](https://github.com/HeegeePark/SeSAC/issues/12)|
 |`week6`|Day28|[Media: BasView, BaseViewController 적용 및 API Router 추상화를 통한 리팩토링](https://github.com/HeegeePark/SeSAC/issues/13)|
 |`week6`|Day29|[Media: Generic, Meta Type 활용한 리팩토링 및 TV 시리즈 검색 기능 추가 및 더 많은 세부 정보 제공 구현](https://github.com/HeegeePark/SeSAC/issues/14)|
-
-
+|||
+|`week7`|Day30|[Media: URLSession 기반 통신 및 에러 대응](https://github.com/HeegeePark/SeSAC/issues/15)|
