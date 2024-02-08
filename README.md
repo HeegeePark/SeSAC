@@ -49,3 +49,4 @@
 |`week6`|Day29|[Media: Generic, Meta Type 활용한 리팩토링 및 TV 시리즈 검색 기능 추가 및 더 많은 세부 정보 제공 구현](https://github.com/HeegeePark/SeSAC/issues/14)|
 |||
 |`week7`|Day30|[Media: URLSession 기반 통신 및 에러 대응](https://github.com/HeegeePark/SeSAC/issues/15)|
+|`week7`|Day31|[Media: URLSession UrlComponent 적용 및 throw 함수 구현](https://github.com/HeegeePark/SeSAC/issues/16)|
