@@ -52,4 +52,5 @@
 |`week7`|Day30|[Media: URLSession 기반 통신 및 에러 대응](https://github.com/HeegeePark/SeSAC/issues/15)|
 |`week7`|Day31|[Media: URLSession UrlComponent 적용 및 throw 함수 구현](https://github.com/HeegeePark/SeSAC/issues/16)|
 |`week7`|Day32|[Media: 마무리, 접근제어 적용](https://github.com/HeegeePark/SeSAC/issues/17)|
-|`week7`|Day33|[Todo: 클로저로 값 전달 구현](https://github.com/HeegeePark/SeSAC/issues/18)|
+|||
+|`week8`|Day33|[Todo: 클로저로 값 전달 구현](https://github.com/HeegeePark/SeSAC/issues/18)|
