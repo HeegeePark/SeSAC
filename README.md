@@ -56,3 +56,5 @@
 |`week8`|Day33|[Todo: 클로저로 값 전달 구현](https://github.com/HeegeePark/SeSAC/issues/18)|
 |`week8`|Day34|[Todo: Realm을 이용하여 Create, Read](https://github.com/HeegeePark/SeSAC/issues/19)|
 |`week8`|Day35|[Todo: Realm을 이용하여 Update, Delete](https://github.com/HeegeePark/SeSAC/issues/20)|
+|||
+|`week9`|Day36|[Todo: 로컬에 이미지 저장](https://github.com/HeegeePark/SeSAC/issues/21)|
