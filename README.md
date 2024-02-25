@@ -58,3 +58,5 @@
 |`week8`|Day35|[Todo: Realm을 이용하여 Update, Delete](https://github.com/HeegeePark/SeSAC/issues/20)|
 |||
 |`week9`|Day36|[Todo: 로컬에 이미지 저장](https://github.com/HeegeePark/SeSAC/issues/21)|
+|`week9`|Day37|[Todo: Realm List 적용](https://github.com/HeegeePark/SeSAC/issues/22)|
+|`week9`|Day38|[Todo: Realm 마이그레이션 및 스키마 관리](https://github.com/HeegeePark/SeSAC/issues/23)|
