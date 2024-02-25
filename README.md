@@ -60,3 +60,5 @@
 |`week9`|Day36|[Todo: 로컬에 이미지 저장](https://github.com/HeegeePark/SeSAC/issues/21)|
 |`week9`|Day37|[Todo: Realm List 적용](https://github.com/HeegeePark/SeSAC/issues/22)|
 |`week9`|Day38|[Todo: Realm 마이그레이션 및 스키마 관리](https://github.com/HeegeePark/SeSAC/issues/23)|
+|`week9`|Day39|[MVVM: Observable 이해하기](https://github.com/HeegeePark/SeSAC/issues/24)|
+|`week9`|Day40|[MVVM: Observable 적용 및 MVVM 개선](https://github.com/HeegeePark/SeSAC/issues/25)|
